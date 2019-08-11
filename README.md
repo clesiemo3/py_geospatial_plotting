@@ -4,6 +4,16 @@
 
 ### Dev Setup
 
+There are 2 requirements files available. 1 is a trimmed down file for a simple pip install while the 2nd is the entire contents of my conda development environment which includes a lot of non-essential packages.
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+conda install --file conda_requirements.txt
+```
+
 ### Data Sources
 
 Codified Downloads
@@ -25,5 +35,4 @@ Manual Downloads
   - [Manually built in Google Sheets](https://docs.google.com/spreadsheets/d/1W1e_6_0pu3oPK0nPiQGqcdR18QBeWRE0zOiXsa9p7Jw/edit?usp=sharing)
 
 ## TODO
-- dev setup docs
 - english readable walkthrough of notebook
